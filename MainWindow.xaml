@@ -7,18 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="清除" Height="NaN" Margin="29,10,599,377" Width="NaN"/>
-        <TextBox TextWrapping="Wrap" Margin="29,139,626,233" Height="NaN" Width="NaN"/>
+        <Button x:Name="btnAllClear" Content="清除" Height="NaN" Margin="29,10,599,377" Width="NaN"/>
+        <TextBox x:Name="txtCM" TextWrapping="Wrap" Margin="29,139,626,233" Height="NaN" Width="NaN" KeyUp="txtCM_KeyUp"/>
         <TextBlock TextWrapping="Wrap" Text="毫克" Margin="29,95,612,274" Height="NaN" Width="NaN"/>
-        <TextBox TextWrapping="Wrap" Margin="241,139,414,233" Height="NaN" Width="NaN"/>
+        <TextBox x:Name="txtM" TextWrapping="Wrap" Margin="241,139,414,233" Height="NaN" Width="NaN" KeyUp="txtM_KeyUp"/>
         <TextBlock TextWrapping="Wrap" Text="公克" Margin="241,95,400,274" Height="NaN" Width="NaN"/>
-        <TextBox TextWrapping="Wrap" Margin="446,139,209,233" Height="NaN" Width="NaN"/>
+        <TextBox x:Name="txtKM" TextWrapping="Wrap" Margin="446,139,209,233" Height="NaN" Width="NaN" KeyUp="txtKM_KeyUp"/>
         <TextBlock TextWrapping="Wrap" Text="公斤" Margin="446,95,195,274" Height="NaN" Width="NaN"/>
-        <TextBox TextWrapping="Wrap" Margin="29,301,626,71" Height="NaN" Width="NaN"/>
-        <TextBlock TextWrapping="Wrap" Text="公噸" Margin="29,257,612,112" Height="NaN" Width="NaN"/>
-        <TextBox TextWrapping="Wrap" Margin="241,301,414,71" Height="NaN" Width="NaN"/>
-        <TextBlock TextWrapping="Wrap" Text="盎司" Margin="241,257,400,112" Height="NaN" Width="NaN"/>
-        <TextBox TextWrapping="Wrap" Margin="446,301,209,71" Height="NaN" Width="NaN"/>
-        <TextBlock TextWrapping="Wrap" Text="磅" Margin="446,257,195,112" Height="NaN" Width="NaN"/>
+        <TextBox x:Name="txtIn" TextWrapping="Wrap" Margin="29,277,626,95" Height="NaN" Width="NaN" KeyUp="txtIn_KeyUp"/>
+        <TextBlock TextWrapping="Wrap" Text="公噸" Margin="29,233,612,136" Height="NaN" Width="NaN"/>
+        <TextBox x:Name="txtFt" TextWrapping="Wrap" Margin="241,277,414,95" Height="NaN" Width="NaN" KeyUp="txtFt_KeyUp"/>
+        <TextBlock TextWrapping="Wrap" Text="盎司" Margin="241,233,400,136" Height="NaN" Width="NaN"/>
+        <TextBox x:Name="txtYard" TextWrapping="Wrap" Margin="446,277,209,95" Height="NaN" Width="NaN" KeyUp="txtYard_KeyUp"/>
+        <TextBlock TextWrapping="Wrap" Text="磅" Margin="446,233,195,136" Height="NaN" Width="NaN"/>
+        <TextBox x:Name="txtInfo" TextWrapping="Wrap" Margin="29,364,209,28" Height="NaN"/>
     </Grid>
 </Window>
