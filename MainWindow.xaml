@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnAllClear" Content="清除" Height="NaN" Margin="29,10,599,377" Width="NaN"/>
+        <Button x:Name="btnAllClear" Content="清除" Height="NaN" Margin="29,10,599,377" Width="NaN" Click="btnAllClear_Click"/>
         <TextBox x:Name="txtCM" TextWrapping="Wrap" Margin="29,139,626,233" Height="NaN" Width="NaN" KeyUp="txtCM_KeyUp"/>
         <TextBlock TextWrapping="Wrap" Text="毫克" Margin="29,95,612,274" Height="NaN" Width="NaN"/>
         <TextBox x:Name="txtM" TextWrapping="Wrap" Margin="241,139,414,233" Height="NaN" Width="NaN" KeyUp="txtM_KeyUp"/>
@@ -20,6 +20,6 @@
         <TextBlock TextWrapping="Wrap" Text="盎司" Margin="241,233,400,136" Height="NaN" Width="NaN"/>
         <TextBox x:Name="txtYard" TextWrapping="Wrap" Margin="446,277,209,95" Height="NaN" Width="NaN" KeyUp="txtYard_KeyUp"/>
         <TextBlock TextWrapping="Wrap" Text="磅" Margin="446,233,195,136" Height="NaN" Width="NaN"/>
-        <TextBox x:Name="txtInfo" TextWrapping="Wrap" Margin="29,364,209,28" Height="NaN"/>
+        <TextBox x:Name="txtInfo" TextWrapping="Wrap" Margin="29,364,209,28" Height="NaN" Text="請輸入數字"/>
     </Grid>
 </Window>
